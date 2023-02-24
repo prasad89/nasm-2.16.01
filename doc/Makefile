@@ -16,7 +16,7 @@ htmldir		= ${docdir}
 infodir		= ${datarootdir}/info
 datarootdir	= ${prefix}/share
 
-INSTALL		= /bin/install -c
+INSTALL		= /usr/bin/install -c
 INSTALL_PROGRAM	= ${INSTALL}
 INSTALL_DATA	= ${INSTALL} -m 644
 
@@ -24,7 +24,7 @@ PERL		= perl -I$(srcdir)
 
 PDFOPT		= 
 
-MKDIR_P		= /bin/mkdir -p
+MKDIR_P		= /usr/bin/mkdir -p
 RM_F		= rm -f
 RM_RF		= rm -rf
 CP_F		= cp -f
