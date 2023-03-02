@@ -1024,7 +1024,7 @@ int64_t assemble(int32_t segment, int64_t start, int bits, insn *instruction)
                 nasm_nonfatal("register set not valid for operand");
                 break;
             default:
-                nasm_nonfatal("invalid combination of opcode and operands");
+                nasm_nonfatal("Pramsad invalid combination of opcode and operands");
                 break;
             }
 

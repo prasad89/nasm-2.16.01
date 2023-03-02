@@ -885,7 +885,7 @@ configure:6224: $? = 0
 configure:6224: result: yes
 configure:6230: checking for stricmp
 configure:6230: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/cc2x1hnl.o: in function `main':
+/usr/bin/ld: /tmp/cciiKXFs.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:84: undefined reference to `stricmp'
 collect2: error: ld returned 1 exit status
 configure:6230: $? = 1
@@ -984,7 +984,7 @@ configure:6237: $? = 0
 configure:6237: result: yes
 configure:6243: checking for strnicmp
 configure:6243: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/cc1FySGK.o: in function `main':
+/usr/bin/ld: /tmp/ccWSVTpb.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:85: undefined reference to `strnicmp'
 collect2: error: ld returned 1 exit status
 configure:6243: $? = 1
@@ -1088,7 +1088,7 @@ configure:6257: $? = 0
 configure:6257: result: yes
 configure:6264: checking for strrchrnul
 configure:6264: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/ccvwYD86.o: in function `main':
+/usr/bin/ld: /tmp/ccBBZRhi.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:87: undefined reference to `strrchrnul'
 collect2: error: ld returned 1 exit status
 configure:6264: $? = 1
@@ -1204,7 +1204,7 @@ configure:6285: $? = 0
 configure:6285: result: yes
 configure:6292: checking for mempset
 configure:6292: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/cch7ufoj.o: in function `main':
+/usr/bin/ld: /tmp/ccaoucYR.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:90: undefined reference to `mempset'
 collect2: error: ld returned 1 exit status
 configure:6292: $? = 1
@@ -1325,7 +1325,7 @@ configure:6329: $? = 0
 configure:6329: result: yes
 configure:6336: checking for _fullpath
 configure:6336: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/ccTXAt7d.o: in function `main':
+/usr/bin/ld: /tmp/ccpYyBXK.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:95: undefined reference to `_fullpath'
 collect2: error: ld returned 1 exit status
 configure:6336: $? = 1
@@ -1439,7 +1439,7 @@ configure:6371: $? = 0
 configure:6401: result: no
 configure:6420: checking for _fseeki64
 configure:6420: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/ccw7b2tz.o: in function `main':
+/usr/bin/ld: /tmp/ccZ2bwqA.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:97: undefined reference to `_fseeki64'
 collect2: error: ld returned 1 exit status
 configure:6420: $? = 1
@@ -1551,7 +1551,7 @@ configure:6427: $? = 0
 configure:6427: result: yes
 configure:6433: checking for _chsize
 configure:6433: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/cccJrwlD.o: in function `main':
+/usr/bin/ld: /tmp/ccycrOeO.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:98: undefined reference to `_chsize'
 collect2: error: ld returned 1 exit status
 configure:6433: $? = 1
@@ -1660,7 +1660,7 @@ configure: failed program was:
 configure:6433: result: no
 configure:6439: checking for _chsize_s
 configure:6439: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/ccquaRL3.o: in function `main':
+/usr/bin/ld: /tmp/cczWX1dy.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:98: undefined reference to `_chsize_s'
 collect2: error: ld returned 1 exit status
 configure:6439: $? = 1
@@ -1773,7 +1773,7 @@ configure:6446: $? = 0
 configure:6446: result: yes
 configure:6452: checking for _fileno
 configure:6452: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/cc22DhOD.o: in function `main':
+/usr/bin/ld: /tmp/ccR7IrqV.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:99: undefined reference to `_fileno'
 collect2: error: ld returned 1 exit status
 configure:6452: $? = 1
@@ -1903,7 +1903,7 @@ configure:6663: $? = 0
 configure:6663: result: yes
 configure:6669: checking for _access
 configure:6669: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/ccDqMCQA.o: in function `main':
+/usr/bin/ld: /tmp/ccsKgEpY.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:104: undefined reference to `_access'
 collect2: error: ld returned 1 exit status
 configure:6669: $? = 1
@@ -2160,7 +2160,7 @@ conftest.c: In function 'main':
 conftest.c:114:11: warning: implicit declaration of function '_BitScanReverse' [-Wimplicit-function-declaration]
   114 |     (void)_BitScanReverse(0);
       |           ^~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccvJvlJh.o: in function `main':
+/usr/bin/ld: /tmp/ccaSVeM6.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:114: undefined reference to `_BitScanReverse'
 collect2: error: ld returned 1 exit status
 configure:6813: $? = 1
@@ -2289,7 +2289,7 @@ conftest.c: In function 'main':
 conftest.c:114:11: warning: implicit declaration of function '_BitScanReverse64' [-Wimplicit-function-declaration]
   114 |     (void)_BitScanReverse64(0);
       |           ^~~~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/cc1sAkbg.o: in function `main':
+/usr/bin/ld: /tmp/ccbmsXYw.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:114: undefined reference to `_BitScanReverse64'
 collect2: error: ld returned 1 exit status
 configure:6839: $? = 1
@@ -2422,7 +2422,7 @@ configure:6953: $? = 0
 configure:6963: result: vsnprintf
 configure:6981: checking for strlcpy
 configure:6981: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/ccgG44Fg.o: in function `main':
+/usr/bin/ld: /tmp/ccnqjSvB.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:111: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:6981: $? = 1
@@ -2812,7 +2812,7 @@ configure:7014: $? = 0
 configure:7014: result: yes
 configure:7020: checking for _stati64
 configure:7020: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/cc6MtWBR.o: in function `main':
+/usr/bin/ld: /tmp/cc3eytXV.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:113: undefined reference to `_stati64'
 collect2: error: ld returned 1 exit status
 configure:7020: $? = 1
@@ -2940,7 +2940,7 @@ configure:7027: $? = 0
 configure:7027: result: yes
 configure:7033: checking for _fstati64
 configure:7033: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/ccPshLWP.o: in function `main':
+/usr/bin/ld: /tmp/ccuf9A1r.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:114: undefined reference to `_fstati64'
 collect2: error: ld returned 1 exit status
 configure:7033: $? = 1
@@ -3065,7 +3065,7 @@ configure: failed program was:
 configure:7033: result: no
 configure:7040: checking for S_ISREG
 configure:7040: gcc -o conftest -g -O2 -std=c17 -fwrapv -U__STRICT_ANSI__ -fno-common   conftest.c  >&5
-/usr/bin/ld: /tmp/cclyfTXk.o: in function `main':
+/usr/bin/ld: /tmp/ccXqyfJa.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:114: undefined reference to `S_ISREG'
 collect2: error: ld returned 1 exit status
 configure:7040: $? = 1
@@ -4321,7 +4321,7 @@ conftest.c: In function 'main':
 conftest.c:130:11: warning: implicit declaration of function 'cpu_to_le16' [-Wimplicit-function-declaration]
   130 |     (void)cpu_to_le16(0);
       |           ^~~~~~~~~~~
-/usr/bin/ld: /tmp/ccSroRNO.o: in function `main':
+/usr/bin/ld: /tmp/ccmOq5yQ.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:130: undefined reference to `cpu_to_le16'
 collect2: error: ld returned 1 exit status
 configure:7308: $? = 1
@@ -4466,7 +4466,7 @@ conftest.c: In function 'main':
 conftest.c:130:11: warning: implicit declaration of function 'cpu_to_le32' [-Wimplicit-function-declaration]
   130 |     (void)cpu_to_le32(0);
       |           ^~~~~~~~~~~
-/usr/bin/ld: /tmp/ccVleSoS.o: in function `main':
+/usr/bin/ld: /tmp/ccyH8qYo.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:130: undefined reference to `cpu_to_le32'
 collect2: error: ld returned 1 exit status
 configure:7334: $? = 1
@@ -4611,7 +4611,7 @@ conftest.c: In function 'main':
 conftest.c:130:11: warning: implicit declaration of function 'cpu_to_le64' [-Wimplicit-function-declaration]
   130 |     (void)cpu_to_le64(0);
       |           ^~~~~~~~~~~
-/usr/bin/ld: /tmp/ccqNzpgG.o: in function `main':
+/usr/bin/ld: /tmp/cceXrotD.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:130: undefined reference to `cpu_to_le64'
 collect2: error: ld returned 1 exit status
 configure:7360: $? = 1
@@ -4756,7 +4756,7 @@ conftest.c: In function 'main':
 conftest.c:130:11: warning: implicit declaration of function '__cpu_to_le16' [-Wimplicit-function-declaration]
   130 |     (void)__cpu_to_le16(0);
       |           ^~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccKBQODY.o: in function `main':
+/usr/bin/ld: /tmp/ccMepDnt.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:130: undefined reference to `__cpu_to_le16'
 collect2: error: ld returned 1 exit status
 configure:7386: $? = 1
@@ -4901,7 +4901,7 @@ conftest.c: In function 'main':
 conftest.c:130:11: warning: implicit declaration of function '__cpu_to_le32' [-Wimplicit-function-declaration]
   130 |     (void)__cpu_to_le32(0);
       |           ^~~~~~~~~~~~~
-/usr/bin/ld: /tmp/cccEqdPC.o: in function `main':
+/usr/bin/ld: /tmp/ccKGj6VB.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:130: undefined reference to `__cpu_to_le32'
 collect2: error: ld returned 1 exit status
 configure:7412: $? = 1
@@ -5046,7 +5046,7 @@ conftest.c: In function 'main':
 conftest.c:130:11: warning: implicit declaration of function '__cpu_to_le64' [-Wimplicit-function-declaration]
   130 |     (void)__cpu_to_le64(0);
       |           ^~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccxsyrdR.o: in function `main':
+/usr/bin/ld: /tmp/cc8LsdBe.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:130: undefined reference to `__cpu_to_le64'
 collect2: error: ld returned 1 exit status
 configure:7438: $? = 1
@@ -5227,7 +5227,7 @@ conftest.c: In function 'main':
 conftest.c:139:11: warning: implicit declaration of function '_byteswap_ushort' [-Wimplicit-function-declaration]
   139 |     (void)_byteswap_ushort(0);
       |           ^~~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccjXKKpE.o: in function `main':
+/usr/bin/ld: /tmp/cczIs1bx.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:139: undefined reference to `_byteswap_ushort'
 collect2: error: ld returned 1 exit status
 configure:7698: $? = 1
@@ -5381,7 +5381,7 @@ conftest.c: In function 'main':
 conftest.c:139:11: warning: implicit declaration of function '_byteswap_ulong' [-Wimplicit-function-declaration]
   139 |     (void)_byteswap_ulong(0);
       |           ^~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccbRLJbB.o: in function `main':
+/usr/bin/ld: /tmp/ccN8NLfS.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:139: undefined reference to `_byteswap_ulong'
 collect2: error: ld returned 1 exit status
 configure:7724: $? = 1
@@ -5535,7 +5535,7 @@ conftest.c: In function 'main':
 conftest.c:139:11: warning: implicit declaration of function '_byteswap_uint64' [-Wimplicit-function-declaration]
   139 |     (void)_byteswap_uint64(0);
       |           ^~~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccqfOFQq.o: in function `main':
+/usr/bin/ld: /tmp/ccHSmivm.o: in function `main':
 /home/prasad89/NASM/nasm-2.16.01/conftest.c:139: undefined reference to `_byteswap_uint64'
 collect2: error: ld returned 1 exit status
 configure:7750: $? = 1

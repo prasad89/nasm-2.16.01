@@ -748,7 +748,7 @@ restart_parse:
              *!  of a typo, but is technically correct NASM syntax (see \k{syntax}.)
              */
             nasm_warn(WARN_LABEL_ORPHAN,
-                      "label alone on a line without a colon might be in error");
+                      "Pramsad label alone on a line without a colon might be in error");
         }
         if (i != TOKEN_INSN || tokval.t_integer != I_EQU)
         {
