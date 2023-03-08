@@ -33,7 +33,7 @@
 
 /* Define to 1 if compiled with the `-ftrivial-auto-var-init=zero' compiler
    flag */
-/* #undef CFLAGS_FTRIVIAL_AUTO_VAR_INIT_ZERO */
+#define CFLAGS_FTRIVIAL_AUTO_VAR_INIT_ZERO 1
 
 /* Define to 1 if compiled with the `-fvisibility=hidden' compiler flag */
 #define CFLAGS_FVISIBILITY_HIDDEN 1
